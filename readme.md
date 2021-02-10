@@ -1,5 +1,7 @@
 # mail-sender
 
+> 注意，这个是基于github.com/n9e/mail-sender开发的钉钉的发送。
+
 Nightingale的理念，是将告警事件扔到redis里就不管了，接下来由各种sender来读取redis里的事件并发送，毕竟发送报警的方式太多了，适配起来比较费劲，希望社区同仁能够共建。
 
 最常见的告警发送方式是邮件，所以这里我写了一个mail-sender，供参考
